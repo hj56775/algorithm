@@ -1,4 +1,4 @@
-from collections import deque
+
 
 #BFS 메서드 정의
 def bfs(graph,start,visited):
@@ -15,7 +15,7 @@ def bfs(graph,start,visited):
                 queue.append(i)
                 visited[i] = True
 
-graph=graph=[
+graph=[
     [],
     [2,3,8],
     [1,7],
