@@ -41,13 +41,13 @@ func Q14600() {
         if isEmpty(x: x + newSize, y: y, size: newSize) {
             map[x + newSize][y + newSize - 1] = number
         }
-        if isEmpty(x: x, y: y + newSize, size: newSize) {
-            map[x + newSize - 1][y + newSize] = number
-        }
         if isEmpty(x: x + newSize, y: y + newSize, size: newSize) {
             map[x + newSize][y + newSize] =  number
         }
-
+        if isEmpty(x: x, y: y + newSize, size: newSize) {
+            map[x + newSize - 1][y + newSize] = number
+        }
+        
         if size == 2 { return }
         solve(x: x, y: y, size: newSize)
         solve(x: x + newSize, y: y, size: newSize)
