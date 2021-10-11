@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292AB57D27144BD8006B472D /* 1011.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292AB57C27144BD8006B472D /* 1011.swift */; };
+		298C26162712B6580018370C /* 2447.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298C26152712B6580018370C /* 2447.swift */; };
+		298C26182712E5C60018370C /* 2448.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298C26172712E5C60018370C /* 2448.swift */; };
 		2992D65327098DA10084F530 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992D65227098DA10084F530 /* main.swift */; };
 		2992D65A27098E060084F530 /* 20056.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992D65927098E060084F530 /* 20056.swift */; };
 		2992D65C27098F4B0084F530 /* 14600.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2992D65B27098F4B0084F530 /* 14600.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		292AB57C27144BD8006B472D /* 1011.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1011.swift; sourceTree = "<group>"; };
+		298C26152712B6580018370C /* 2447.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2447.swift; sourceTree = "<group>"; };
+		298C26172712E5C60018370C /* 2448.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2448.swift; sourceTree = "<group>"; };
 		2992D64F27098DA10084F530 /* PSSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PSSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		2992D65227098DA10084F530 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2992D65927098E060084F530 /* 20056.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20056.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 				2992D65227098DA10084F530 /* main.swift */,
 				2992D65D2709A3E00084F530 /* 4256.swift */,
 				2992D65927098E060084F530 /* 20056.swift */,
+				298C26152712B6580018370C /* 2447.swift */,
+				298C26172712E5C60018370C /* 2448.swift */,
+				292AB57C27144BD8006B472D /* 1011.swift */,
 				2992D65B27098F4B0084F530 /* 14600.swift */,
 			);
 			path = Swift;
@@ -131,8 +140,11 @@
 			files = (
 				2992D65327098DA10084F530 /* main.swift in Sources */,
 				2992D65A27098E060084F530 /* 20056.swift in Sources */,
+				298C26162712B6580018370C /* 2447.swift in Sources */,
+				298C26182712E5C60018370C /* 2448.swift in Sources */,
 				2992D65E2709A3E00084F530 /* 4256.swift in Sources */,
 				2992D65C27098F4B0084F530 /* 14600.swift in Sources */,
+				292AB57D27144BD8006B472D /* 1011.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
